@@ -1,3 +1,82 @@
+# ------------------------
+# Python
+# ------------------------
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.pkl
+*.sqlite3
+
+# Virtual environment
+venv/
+env/
+.venv/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Logs
+*.log
+
+# Local settings / credentials
+*.env
+.env.*
+*.ini
+config.json
+secrets.json
+
+# Cache
+*.cache/
+cache/
+pip-cache/
+
+# Transformers / HuggingFace models cache
+~/.cache/huggingface/
+huggingface/
+
+# NLTK data
+nltk_data/
+tokenizers/
+
+# Scraped raw data (optional)
+raw_data/
+data/raw/
+
+# CSV/Excel files (optional – keep if you want)
+*.csv
+*.xlsx
+
+# VS Code
+.vscode/
+.settings/
+.history/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Build / dist
+build/
+dist/
+*.egg-info/
+
+# PyTest / Coverage
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Reports
+reports/
+outputs/
+results/
+
+# temp python scripts or dump
+tmp/
+temp/
+
+# Notebook auto backups
+*.ipynb_checkpoints
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
